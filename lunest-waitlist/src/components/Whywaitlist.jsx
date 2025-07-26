@@ -74,7 +74,7 @@ const Whywaitlist = () => {
       </Swiper>
 
       <div className="mt-10 flex justify-center">
-        <button className="flex items-center gap-2 px-6 py-3 rounded-full border-2 border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white transition">
+        <a href="/waitlist" className="flex items-center gap-2 px-6 py-3 rounded-full border-2 border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white transition">
           Join the Waitlist
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ const Whywaitlist = () => {
               d="M9 5l7 7-7 7"
             />
           </svg>
-        </button>
+        </a>
       </div>
     </div>
   );

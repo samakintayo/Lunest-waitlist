@@ -47,7 +47,7 @@ const NewHero = () => {
 
         {/* CTA Button */}
         <a
-          href="#"
+          href="/waitlist"
           className="px-7 py-3.5 bg-blue-700 rounded-[30px] inline-flex justify-center items-center gap-3.5 mb-4"
         >
           <span className="text-white text-xl font-medium font-['Aeonik_Pro']">

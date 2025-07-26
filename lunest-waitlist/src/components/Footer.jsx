@@ -8,6 +8,17 @@ import {
   EnvelopeIcon,
 } from "@heroicons/react/24/outline";
 
+// Import the FontAwesomeIcon component
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// Import specific brand icons
+import {
+  faInstagram,
+  faXTwitter,
+  faFacebookF,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
+
 const currentYear = new Date().getFullYear();
 
 const Footer = () => {
@@ -18,11 +29,7 @@ const Footer = () => {
         <div className="flex flex-col items-start gap-6">
           {/* Logo Blocks */}
           <div className="flex flex-col items-center gap-2">
-            <img
-              className="h-16"
-              src="/assets/lunest-footer-logo.svg"
-              alt=""
-            />
+            <img className="h-16" src="/assets/lunest-footer-logo.svg" alt="" />
           </div>
 
           {/* Tagline & Socials */}
@@ -31,15 +38,39 @@ const Footer = () => {
               ...Book in Style, Stay in Confidence
             </p>
             <div className="flex gap-4">
-              <a href="#">
-                <FaceSmileIcon className="w-5 h-5 hover:text-yellow-500" />
-              </a>
-              <a href="#">
-                <ChatBubbleLeftIcon className="w-5 h-5 hover:text-blue-400" />
-              </a>
-              <a href="#">
-                <PhoneIcon className="w-5 h-5 hover:text-green-500" />
-              </a>
+              <div className="inline-flex border rounded-[5px] px-[7px] py-[3px]">
+                <a href="https://www.instagram.com/lunest.app/" className="">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="w-4 h-4 hover:text-blue-400 "
+                  />
+                </a>
+              </div>
+              <div className="inline-flex border rounded-[5px] px-[7px] py-[3px]">
+                <a href="#">
+                  <FontAwesomeIcon
+                    icon={faXTwitter}
+                    className="w-4 h-4 hover:text-blue-400"
+                  />
+                </a>
+              </div>
+
+              <div className="inline-flex border rounded-[5px] px-[7px] py-[3px]">
+                <a href="#">
+                  <FontAwesomeIcon
+                    icon={faFacebookF}
+                    className="w-4 h-4 hover:text-blue-400"
+                  />
+                </a>
+              </div>
+              <div className="inline-flex border rounded-[5px] px-[7px] py-[3px]">
+                <a href="#">
+                  <FontAwesomeIcon
+                    icon={faLinkedinIn}
+                    className="w-4 h-4 hover:text-blue-400"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -55,10 +86,26 @@ const Footer = () => {
                 <li key={link}>{link}</li>
               )
             )}
-            <li className="underline font-medium font-['Aeonik_Pro'] flex gap-2"> <a href="#" className="flex gap-1">Join the Waitlist 
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" /> 
-</svg> </a></li>
+            <li className="underline font-medium font-['Aeonik_Pro'] flex gap-2">
+              {" "}
+              <a href="/waitlist" className="flex gap-1">
+                Join the Waitlist
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6 w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>{" "}
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -89,8 +136,7 @@ const Footer = () => {
             href="#"
             className=" flex px-5 py-2.5 border rounded-full text-sky-100 font-medium font-['Aeonik_Pro']"
           >
-            <img src="/assets/zap-footer.svg" alt="Coming Soon" /> Coming
-            Soon
+            <img src="/assets/zap-footer.svg" alt="Coming Soon" /> Coming Soon
           </button>
           <div className="flex gap-4">
             <img src="/assets/appstore.svg" className="w-24 h-6" />

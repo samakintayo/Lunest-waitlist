@@ -7,17 +7,18 @@ const Header = () => {
     <nav className="w-full h-24 bg-white shadow-sm relative z-50">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-full">
         {/* Logo */}
-        <img
-          src="./src/assets/lunest-main-logo.svg"
+        <a href="/"><img
+          src="/assets/lunest-main-logo.svg"
           alt="LUNEST"
           className="h-10 sm:h-12 object-contain"
         />
+        </a>
 
         {/* Desktop CTA Button */}
         <div className="hidden md:inline-flex bg-gradient-to-br from-blue-700 to-indigo-200 p-[2px] rounded-[30px]">
           <div className="px-7 py-3.5 rounded-[28px] bg-white inline-flex justify-center items-center gap-3.5">
             <a
-              href="#"
+              href="/waitlist"
               className="text-center text-blue-800 text-xl font-medium font-['Aeonik_Pro']"
             >
               Reserve your Spot now

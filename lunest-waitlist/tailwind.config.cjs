@@ -14,6 +14,9 @@ module.exports = {
       reserveBtn: '#000CDFB2',
   
     },
+    fontFamily: {
+        custom: ['""Aeonik Pro"', 'sans-serif'],
+      },
     },
   },
   plugins: [],

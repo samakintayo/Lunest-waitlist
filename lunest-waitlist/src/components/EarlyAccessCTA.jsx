@@ -13,12 +13,12 @@ const EarlyAccessCTA = () => {
         </h2>
 
         <div className="flex lg:justify-start justify-center">
-          <button
-            href="#"
+          <a
+            href="/waitlist"
             className="flex text-center align-start text-xl font-medium text-sky-100 font-['Aeonik_Pro'] px-6 py-3 rounded-full border-2 transition"
           >
             Reserve your Spot Now
-          </button>
+          </a>
         </div>
 
         {/* App Availability Text */}

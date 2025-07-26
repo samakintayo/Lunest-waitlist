@@ -89,14 +89,14 @@ const Waitlistform = () => {
         <div className="absolute ml-0 mr-auto left-0 top-[210px]">
           <img
             className=" w-auto lg:h-80 h-40 left-0 "
-            src="./src/assets/lunest-outline.png"
+            src="/assets/lunest-outline.png"
             alt=""
           />
         </div>
         <div className="absolute mr-0 mr-auto right-0 top-[210px]">
           <img
             className=" w-auto g:h-80 h-40 right-0 "
-            src="./src/assets/lunest-outline-right.png"
+            src="/assets/lunest-outline-right.png"
             alt=""
           />
         </div>
@@ -104,7 +104,7 @@ const Waitlistform = () => {
         <div className="lg:w-[80%] w-[95%] items-center justify-center flex flex-col relative">
           {/* Coming Soon Badge */}
           <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-[30px] outline outline-1 outline-offset-[-1px] outline-blue-700 mb-8">
-            <img className="w-3 h-4" src="./src/assets/lunest-zap.svg" alt="" />
+            <img className="w-3 h-4" src="/assets/lunest-zap.svg" alt="" />
             <span className="text-blue-700/70 text-base font-medium font-['Aeonik_Pro']">
               Coming Soon
             </span>
