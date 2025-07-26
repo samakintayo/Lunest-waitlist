@@ -105,14 +105,14 @@ const Waitlistform = () => {
           {/* Coming Soon Badge */}
           <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-[30px] outline outline-1 outline-offset-[-1px] outline-blue-700 mb-8">
             <img className="w-3 h-4" src="/assets/lunest-zap.svg" alt="" />
-            <span className="text-blue-700/70 text-base font-medium font-['Aeonik_Pro']">
+            <span className="text-blue-700/70 text-base font-medium">
               Coming Soon
             </span>
           </div>
 
           {/* Main Text */}
           <div className="max-w-6xl text-center mb-6">
-            <h1 className="text-4xl lg:text-5xl font-medium font-['Aeonik_Pro']">
+            <h1 className="text-4xl lg:text-5xl font-medium">
               Join the{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-indigo-200">
                 LUNEST
@@ -120,7 +120,7 @@ const Waitlistform = () => {
               Waitlist
             </h1>
           </div>
-          <p className="self-center w-[85%] text-center lg:text-lg text-sm font-['Aeonik_Pro'] mb-10 leading-1">
+          <p className="self-center w-[85%] text-center lg:text-lg text-sm mb-10 leading-1">
             Be part of Nigeria’s smarter, more secure rental platform. Whether
             you’re a guest or a landlord, we’ll notify you first when we launch
             — with early access and exclusive perks.
@@ -136,7 +136,7 @@ const Waitlistform = () => {
               {/* Full Name */}
               <label
                 htmlFor="fullName"
-                className="text-zinc-800 text-sm font-medium font-['Aeonik_Pro']"
+                className="text-zinc-800 text-sm font-medium font-['aeonik']"
               >
                 Full Name
               </label>
