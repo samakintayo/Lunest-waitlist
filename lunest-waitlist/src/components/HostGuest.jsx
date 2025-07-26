@@ -37,7 +37,7 @@ const HostGuest = () => {
             <div className="w-52 sm:w-60 h-52 sm:h-60  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full" />
             <img
               className="relative w-full h-auto z-10"
-              src="./src/assets/lunest-for-guest-img2.png"
+              src="/assets/lunest-for-guest-img2.png"
               alt="Guest section"
             />
           </div>
@@ -62,7 +62,7 @@ const HostGuest = () => {
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     <div className="w-6 h-6 flex items-center justify-center">
-                      <img className='w-5 h-5' src="./src/assets/lunest-tick-o.svg" alt="" />
+                      <img className='w-5 h-5' src="/assets/lunest-tick-o.svg" alt="" />
                     </div>
                     <span className="text-black text-base md:text-lg font-normal font-['Aeonik_Pro'] leading-snug">
                       {item}
@@ -80,7 +80,7 @@ const HostGuest = () => {
             <div className="w-52 sm:w-60 h-52 sm:h-60 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full" />
             <img
               className="relative w-full h-auto z-10"
-              src="./src/assets/lunest-for-host.png"
+              src="/assets/lunest-for-host.png"
               alt="Host section"
             />
           </div>
@@ -104,7 +104,7 @@ const HostGuest = () => {
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     <div className="w-6 h-6 flex items-center justify-center">
-                        <img className='w-5 h-5' src="./src/assets/lunest-tick-o.svg" alt="" />
+                        <img className='w-5 h-5' src="/assets/lunest-tick-o.svg" alt="" />
                     </div>
                     <span className="text-black text-base md:text-lg font-normal font-['Aeonik_Pro'] leading-snug">
                       {item}

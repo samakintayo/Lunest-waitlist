@@ -42,7 +42,7 @@ const EarlyAccessCTA = () => {
       <div className="w-full lg:w-[608px] flex lg:absolute bottom-0 lg:right-0 justify-center lg:justify-end">
         <img
           className="w-full max-w-[608px] h-auto object-contain bottom-0"
-          src="../public/assets/lunest-home-img1.png"
+          src="/assets/lunest-home-img1.png"
           alt="Lunest preview"
         />
       </div>

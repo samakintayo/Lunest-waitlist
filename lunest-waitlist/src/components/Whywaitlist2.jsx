@@ -13,38 +13,38 @@ const Whywaitlist = () => {
     {/* Card 1 */}
     <JoinCard
       title="Exclusive Launch Offers"
-      imgSrc="./public/assets/character-1.png"
+      imgSrc="/assets/character-1.png"
       bgColor="bg-red-100"
-      bgSrc1="./public/assets/card-bg1.svg"
-      bgsrc2="./public/assets/card-bg2.svg"
+      bgSrc1="/assets/card-bg1.svg"
+      bgsrc2="/assets/card-bg2.svg"
        />
 
     {/* Card 2 */}
      <JoinCard
       title="Exclusive Launch Offers"
-      imgSrc="./public/assets/character-2.png"
+      imgSrc="/assets/character-2.png"
       bgColor="bg-violet-100"
-      bgSrc1="./public/assets/Vector2b.svg"
-      bgsrc2="./public/assets/Vector2a.svg"
+      bgSrc1="/assets/Vector2b.svg"
+      bgsrc2="/assets/Vector2a.svg"
     />
 
     {/* Card 3 */}
     <JoinCard
       title="Exclusive Launch Offers"
-      imgSrc="./public/assets/character-3.png"
+      imgSrc="/assets/character-3.png"
       bgColor="bg-green-100"
-      bgSrc1="./public/assets/vector3b.svg"
-      bgsrc2="./public/assets/vector3a.png"
+      bgSrc1="/assets/vector3b.svg"
+      bgsrc2="/assets/vector3a.png"
     />
 
     
     {/* Card 4 */}
     <JoinCard
       title="Exclusive Launch Offers"
-      imgSrc="./public/assets/character-4.png"
+      imgSrc="/assets/character-4.png"
       bgColor="bg-indigo-100"
-      bgSrc1="./public/assets/vector4b.svg"
-      bgsrc2="./public/assets/vector4a.svg"
+      bgSrc1="/assets/vector4b.svg"
+      bgsrc2="/assets/vector4a.svg"
     />
 
   </div>

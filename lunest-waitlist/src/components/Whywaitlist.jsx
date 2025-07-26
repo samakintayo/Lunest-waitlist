@@ -35,40 +35,40 @@ const Whywaitlist = () => {
           <SwiperSlide>
             <JoinCard
               title="Exclusive Launch Offers"
-              imgSrc="./src/assets/character-1.png"
+              imgSrc="/assets/character-1.png"
               bgColor="bg-red-100"
-              bgSrc1="./src/assets/card-bg1.svg"
-              bgsrc2="./src/assets/card-bg2.svg"
+              bgSrc1="/assets/card-bg1.svg"
+              bgsrc2="/assets/card-bg2.svg"
             />
           </SwiperSlide>
       
         <SwiperSlide>
           <JoinCard
             title="Early Bird Benefits"
-            imgSrc="./src/assets/character-2.png"
+            imgSrc="/assets/character-2.png"
             bgColor="bg-violet-100"
-            bgSrc1="./src/assets/Vector2b.svg"
-            bgsrc2="./src/assets/Vector2a.svg"
+            bgSrc1="/assets/Vector2b.svg"
+            bgsrc2="/assets/Vector2a.svg"
           />
         </SwiperSlide>
 
         <SwiperSlide>
           <JoinCard
             title="Priority Access"
-            imgSrc="./src/assets/character-3.png"
+            imgSrc="/assets/character-3.png"
             bgColor="bg-green-100"
-            bgSrc1="./src/assets/vector3b.svg"
-            bgsrc2="./src/assets/vector3a.png"
+            bgSrc1="/assets/vector3b.svg"
+            bgsrc2="/assets/vector3a.png"
           />
         </SwiperSlide>
 
         <SwiperSlide>
           <JoinCard
             title="Special Recognition"
-            imgSrc="./src/assets/character-4.png"
+            imgSrc="/assets/character-4.png"
             bgColor="bg-indigo-100"
-            bgSrc1="./src/assets/vector4b.svg"
-            bgsrc2="./src/assets/vector4a.svg"
+            bgSrc1="/assets/vector4b.svg"
+            bgsrc2="/assets/vector4a.svg"
           />
         </SwiperSlide>
       </Swiper>

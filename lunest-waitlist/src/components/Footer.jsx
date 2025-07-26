@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="flex flex-col items-center gap-2">
             <img
               className="h-16"
-              src="./src/assets/lunest-footer-logo.svg"
+              src="/assets/lunest-footer-logo.svg"
               alt=""
             />
           </div>
@@ -89,12 +89,12 @@ const Footer = () => {
             href="#"
             className=" flex px-5 py-2.5 border rounded-full text-sky-100 font-medium font-['Aeonik_Pro']"
           >
-            <img src="./src/assets/zap-footer.svg" alt="Coming Soon" /> Coming
+            <img src="/assets/zap-footer.svg" alt="Coming Soon" /> Coming
             Soon
           </button>
           <div className="flex gap-4">
-            <img src="./src/assets/appstore.svg" className="w-24 h-6" />
-            <img src="./src/assets/googleplay.svg" className="w-24 h-6" />
+            <img src="/assets/appstore.svg" className="w-24 h-6" />
+            <img src="/assets/googleplay.svg" className="w-24 h-6" />
           </div>
         </div>
       </div>

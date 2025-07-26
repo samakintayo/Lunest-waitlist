@@ -279,7 +279,7 @@ const Waitlistform = () => {
                   </span>
 
                   <div className="h-4 relative">
-                    <img alt="" src="../public/assets/arrow-right-col.svg" />
+                    <img alt="" src="/assets/arrow-right-col.svg" />
                   </div>
                 </button>
               </div>
