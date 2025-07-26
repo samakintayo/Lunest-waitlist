@@ -15,7 +15,7 @@ module.exports = {
   
     },
     fontFamily: {
-        custom: ['""Aeonik Pro"', 'sans-serif'],
+        custom: ['""Aeonik_Pro"', 'sans-serif'],
       },
     },
   },
