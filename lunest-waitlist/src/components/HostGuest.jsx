@@ -44,11 +44,11 @@ const HostGuest = () => {
 
           {/* Left Text */}
           <div className="max-w-xl flex flex-col gap-6 text-start">
-            <h2 className="text-black text-2xl md:text-3xl font-bold font-['Aeonik_Pro']">
+            <h2 className="text-black text-2xl md:text-3xl font-bold ">
               Need a Place to Stay?
             </h2>
             <div>
-              <h3 className="text-black text-xl md:text-2xl font-medium font-['Aeonik_Pro']">
+              <h3 className="text-black text-xl md:text-2xl font-medium ">
                 Join as a Guest and enjoy:
               </h3>
               <ul className="flex flex-col gap-4 mt-4">
@@ -64,7 +64,7 @@ const HostGuest = () => {
                     <div className="w-6 h-6 flex items-center justify-center">
                       <img className='w-5 h-5' src="/assets/lunest-tick-o.svg" alt="" />
                     </div>
-                    <span className="text-black text-base md:text-lg font-normal font-['Aeonik_Pro'] leading-snug">
+                    <span className="text-black text-base md:text-lg font-normal leading-snug">
                       {item}
                     </span>
                   </li>
@@ -87,11 +87,11 @@ const HostGuest = () => {
 
           {/* Right Section - Text */}
           <div className="max-w-xl flex flex-col gap-6 text-start">
-            <h2 className="text-black text-2xl md:text-3xl font-bold font-['Aeonik_Pro']">
+            <h2 className="text-black text-2xl md:text-3xl font-bold">
               Own a Property?
             </h2>
             <div>
-              <h3 className="text-black text-xl md:text-2xl font-medium font-['Aeonik_Pro']">
+              <h3 className="text-black text-xl md:text-2xl font-medium">
                 Join as a Landlord/Host and get:
               </h3>
               <ul className="flex flex-col gap-4 mt-4">
@@ -106,7 +106,7 @@ const HostGuest = () => {
                     <div className="w-6 h-6 flex items-center justify-center">
                         <img className='w-5 h-5' src="/assets/lunest-tick-o.svg" alt="" />
                     </div>
-                    <span className="text-black text-base md:text-lg font-normal font-['Aeonik_Pro'] leading-snug">
+                    <span className="text-black text-base md:text-lg font-normal leading-snug">
                       {item}
                     </span>
                   </li>
