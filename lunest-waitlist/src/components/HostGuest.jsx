@@ -8,7 +8,7 @@ const HostGuest = () => {
       {/* Toggle between Guest and Host */}
       <div className="w-full max-w-lg h-14 bg-sky-100 rounded-full flex text-sm sm:text-base">
         <button
-          className={`w-1/2 h-full px-3 sm:px-6 transition-all duration-300 rounded-full flex justify-center items-center font-medium font-['Aeonik_Pro'] ${
+          className={`w-1/2 h-full px-3 sm:px-6 transition-all duration-300 rounded-full flex justify-center items-center font-medium ${
             isGuest
               ? 'bg-slate-900 text-white  '
               : 'bg-sky-100 text-slate-900'
@@ -18,7 +18,7 @@ const HostGuest = () => {
           For Guests
         </button>
         <button
-          className={`w-1/2 h-full px-3 sm:px-6 transition-all duration-300 rounded-full flex justify-center items-center font-medium font-['Aeonik_Pro'] ${
+          className={`w-1/2 h-full px-3 sm:px-6 transition-all duration-300 rounded-full flex justify-center items-center font-medium ${
             !isGuest
               ? 'bg-slate-900 text-white'
               : 'bg-sky-100 text-slate-900'
