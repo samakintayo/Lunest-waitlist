@@ -10,7 +10,7 @@ const Hero = () => {
           {/* Coming Soon Badge */}
           <div className="px-5 py-2.5 rounded-[30px] outline outline-1 outline-offset-[-1px] outline-blue-700 inline-flex items-center gap-2.5">
             <div className="w-6 h-6 relative">
-              <img className="w-3 h-4 absolute left-[5.5px] top-[3px]  outline-offset-[-0.75px] outline-blue-700" src="./src/assets/lunest-zap.svg" alt="" />
+              <img className="w-3 h-4 absolute left-[5.5px] top-[3px]  outline-offset-[-0.75px] outline-blue-700" src="./public/assets/lunest-zap.svg" alt="" />
             </div>
             <div className="text-blue-700/70 text-base font-medium font-['Aeonik_Pro']">
               Coming Soon
@@ -37,7 +37,7 @@ const Hero = () => {
         {/* Right Side Image */}
         <div className="">
           <img
-            src="./src/assets/lunest-home-img1.png"
+            src="./public/assets/lunest-home-img1.png"
             alt="lunest-Img"
             className="w-[947px] h-[792px] h-auto right-0 object-contain"
           />

@@ -19,7 +19,7 @@ const Header = () => {
           <div className="px-7 py-3.5 rounded-[28px] bg-white inline-flex justify-center items-center gap-3.5">
             <a
               href="/waitlist"
-              className="text-center text-blue-800 text-xl font-medium font-['Aeonik_Pro']"
+              className="text-center text-blue-800 text-1xl font-medium font-['Aeonik_Pro']"
             >
               Reserve your Spot now
             </a>

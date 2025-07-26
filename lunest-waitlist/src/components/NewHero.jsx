@@ -2,7 +2,7 @@ import React from "react";
 
 const NewHero = () => {
   return (
-    <section className="w-full min-h-screen bg-white overflow-hidden flex flex-col items-center justify-center px-4 pt-[60px] lg:pt-20 pb-[5px] lg:pb-[10px] md:px-20 relative">
+    <div className="w-full lg:min-h-screen  bg-white overflow-hidden flex flex-col items-center justify-center px-4 pt-[60px] lg:pt-20 pb-[5px] lg:pb-[10px] md:px-20 relative">
       
       {/* Decorative Shapes */}
       <div className="absolute ml-0 mr-auto left-0 top-[210px]">
@@ -67,7 +67,7 @@ const NewHero = () => {
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
