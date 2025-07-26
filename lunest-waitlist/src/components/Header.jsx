@@ -19,7 +19,7 @@ const Header = () => {
           <div className="px-7 py-3.5 rounded-[28px] bg-white inline-flex justify-center items-center gap-3.5">
             <a
               href="/waitlist"
-              className="text-center text-blue-800 text-1xl font-medium font-['Aeonik_Pro']"
+              className="text-center text-blue-800 text-1xl font-medium"
             >
               Reserve your Spot now
             </a>
@@ -53,8 +53,8 @@ const Header = () => {
           <div className="bg-gradient-to-br from-blue-700 to-indigo-200 p-[3px] rounded-[30px] w-full">
             <div className="px-6 py-3.5 rounded-[27px] bg-white inline-flex justify-center items-center gap-3.5 w-full">
               <a
-                href="#"
-                className="text-blue-800 text-base font-medium font-['Aeonik_Pro'] text-center w-full"
+                href="/waitlist"
+                className="text-blue-800 text-base font-medium text-center w-full"
               >
                 Reserve your Spot now
               </a>
