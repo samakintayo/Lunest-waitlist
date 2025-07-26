@@ -14,14 +14,14 @@
 }
 
 @font-face {
-  font-family: 'Aeonik_Pro';
+  font-family: 'Aeonik Pro';
   src: url('/fonts/Aeonik Pro Air Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Aeonik_Pro';
+  font-family: 'Aeonik Pro';
   src: url('/fonts/Aeonik Pro Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
@@ -29,13 +29,13 @@
 
 
 @font-face {
-  font-family: 'Aeonik_Pro';
+  font-family: 'Aeonik Pro';
   src: url('/fonts/Aeonik_Pro_Medium.ttf') format('truetype');
   font-weight: 700;
   font-style: medium;
 }
 @font-face {
-  font-family: 'Aeonik_Pro';
+  font-family: 'Aeonik Pro';
   src: url('/fonts/Aeonik Pro BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;

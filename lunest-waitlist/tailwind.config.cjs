@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        aeonik: ['Aeonik', 'sans-serif'],
+        aeonik: ['Aeonik_Pro', 'sans-serif'],
       },
       colors: {
       lunestBlue: '#010135',
