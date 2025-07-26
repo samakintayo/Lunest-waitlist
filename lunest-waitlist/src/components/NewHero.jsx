@@ -24,14 +24,14 @@ const NewHero = () => {
         {/* Coming Soon Badge */}
         <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-[30px] outline outline-1 outline-offset-[-1px] outline-blue-700 mb-8">
           <img className="w-3 h-4" src="/assets/lunest-zap.svg" alt="" />
-          <span className="text-blue-700/70 text-base font-medium font-['Aeonik_Pro']">
+          <span className="text-blue-700/70 text-base font-medium">
             Coming Soon
           </span>
         </div>
 
         {/* Main Text */}
         <div className="max-w-5xl text-center mb-6">
-          <h1 className="text-4xl md:text-6xl font-medium font-['Aeonik_Pro']">
+          <h1 className="text-4xl md:text-6xl font-medium ">
             The Future of{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-indigo-200">
               Smarter Home Rentals
@@ -39,7 +39,7 @@ const NewHero = () => {
             in Nigeria!
           </h1>
         </div>
-        <p className="max-w-3xl text-center text-lg md:text-2xl font-['Aeonik_Pro'] mb-10">
+        <p className="max-w-3xl text-center text-lg md:text-2xl mb-10">
           We’re building a seamless, secure platform that makes it easy to find,
           book, or list homes—no agents, no hassle. Reserve your spot now for
           early access.
@@ -50,7 +50,7 @@ const NewHero = () => {
           href="/waitlist"
           className="px-7 py-3.5 bg-blue-700 rounded-[30px] inline-flex justify-center items-center gap-3.5 mb-4"
         >
-          <span className="text-white text-xl font-medium font-['Aeonik_Pro']">
+          <span className="text-white text-xl font-medium">
             Join the Waitlist
           </span>
           <div className="w-4 h-4 relative">
