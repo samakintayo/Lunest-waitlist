@@ -58,7 +58,7 @@ const Whywaitlist = () => {
             imgSrc="/assets/character-3.png"
             bgColor="bg-green-100"
             bgSrc1="/assets/vector3b.svg"
-            bgsrc2="/assets/vector3a.png"
+            bgsrc2="/assets/Vector3a.png"
           />
         </SwiperSlide>
 

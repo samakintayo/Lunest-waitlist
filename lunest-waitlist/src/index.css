@@ -13,7 +13,7 @@
   font-family: 'Aeonik_Pro';
   src: url('/fonts/Aeonik_Pro Regular.ttf') format('truetype');
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
 }
 
 @font-face {
@@ -30,6 +30,13 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'Aeonik_Pro';
+  src: url('/fonts/Aeonik_Pro_Medium.ttf') format('truetype');
+  font-weight: 700;
+  font-style: medium;
+}
 @font-face {
   font-family: 'Aeonik_Pro';
   src: url('/fonts/Aeonik Pro BoldItalic.ttf') format('truetype');
