@@ -13,7 +13,7 @@
   font-family: 'Aeonik_Pro';
   src: url('/fonts/Aeonik_Pro Regular.ttf') format('truetype');
   font-weight: 400;
-  font-style: normal;
+  font-style: Regular;
 }
 
 @font-face {
