@@ -112,7 +112,7 @@ const Waitlistform = () => {
 
           {/* Main Text */}
           <div className="max-w-6xl text-center mb-6">
-            <h1 className="text-4xl lg:text-5xl font-bold font-aeonik">
+            <h1 className="text-4xl lg:text-5xl font-medium font-aeonik">
               Join the{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-indigo-200">
                 LUNEST
