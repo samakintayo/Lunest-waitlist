@@ -31,7 +31,7 @@ const NewHero = () => {
 
         {/* Main Text */}
         <div className="max-w-5xl text-center mb-6">
-          <h1 className="text-4xl md:text-6xl font-medium font-aeonik">
+          <h1 className="text-4xl md:text-6xl font-bold font-aeonik">
             The Future of{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-indigo-200">
               Smarter Home Rentals
@@ -39,7 +39,7 @@ const NewHero = () => {
             in Nigeria!
           </h1>
         </div>
-        <p className="max-w-3xl text-center text-lg md:text-2xl mb-10 font-['aeonik']">
+        <p className="max-w-3xl text-center text-lg md:text-2xl mb-10 font-aeonik">
           We’re building a seamless, secure platform that makes it easy to find,
           book, or list homes—no agents, no hassle. Reserve your spot now for
           early access.
