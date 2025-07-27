@@ -9,10 +9,10 @@ const Whywaitlist = () => {
   return (
     <div className="bg-white py-12 px-6 sm:px-8 lg:px-20">
       <div className="max-w-5xl mx-auto text-center mb-12">
-        <h2 className="text-blue-700 text-3xl sm:text-4xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-indigo-200">
+        <h2 className="text-blue-700 text-3xl sm:text-4xl font-medium font-['aeonik'] text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-indigo-200">
           Why Join the Waitlist?
         </h2>
-        <p className="text-black text-lg sm:text-2xl mt-3">
+        <p className="text-black text-lg sm:text-2xl mt-3 font-['aeonik']">
           Early access means:
         </p>
       </div>
@@ -74,7 +74,7 @@ const Whywaitlist = () => {
       </Swiper>
 
       <div className="mt-10 flex justify-center">
-        <a href="/waitlist" className="flex items-center gap-2 px-6 py-3 rounded-full border-2 border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white transition">
+        <a href="/waitlist" className="flex items-center font-['aeonik'] gap-2 px-6 py-3 rounded-full border-2 border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white transition">
           Join the Waitlist
           <svg
             xmlns="http://www.w3.org/2000/svg"

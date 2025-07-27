@@ -5,7 +5,7 @@ const EarlyAccessCTA = () => {
     <div className="flex flex-col lg:flex-row items-center justify-between gap-10 bg-accessBlue text-white px-6 pb-0 py-12 lg:px-20 lg:py-20 relative">
       {/* Left Section */}
       <div className="flex flex-col gap-6 max-w-xl lg:text-start text-center">
-        <h2 className="text-3xl lg:text-5xl font-medium leading-tight font-['Aeonik_Pro']">
+        <h2 className="text-3xl lg:text-5xl font-medium leading-tight font-['aeonik']">
           Be the First to Experience a{" "}
           <span className="text-sky-100">Smarter Way</span> to{" "}
           <span className="text-sky-100">Rent</span> and{" "}
@@ -15,7 +15,7 @@ const EarlyAccessCTA = () => {
         <div className="flex lg:justify-start justify-center">
           <a
             href="/waitlist"
-            className="flex text-center align-start text-xl font-medium text-sky-100 font-['Aeonik_Pro'] px-6 py-3 rounded-full border-2 transition"
+            className="flex text-center align-start text-xl font-medium text-sky-100 font-['aeonik'] px-6 py-3 rounded-full border-2 transition"
           >
             Reserve your Spot Now
           </a>
@@ -23,7 +23,7 @@ const EarlyAccessCTA = () => {
 
         {/* App Availability Text */}
         <div className="flex flex-col lg:items-start items-center gap-2 mt-4">
-          <div className="relative text-xs font-medium">
+          <div className="relative text-xs font-medium font-['aeonik']">
             <p>
               Free for <span className="">iPhone</span>, <div className=" inline left-[3.73px] top-[1.49px] w-2.5 h-3.5 bg-white" />
               <span className="">Android</span>.
@@ -32,7 +32,7 @@ const EarlyAccessCTA = () => {
                      
           </div>
 
-          <div className="text-white text-3xl lg:text-2xl leading-10 font-['Aeonik_Pro'] font-normal">
+          <div className="text-white text-3xl lg:text-2xl leading-10 font-['aeonik'] font-normal">
             We respect your privacy. No spam.
           </div>
         </div>

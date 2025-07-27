@@ -34,7 +34,7 @@ const Footer = () => {
 
           {/* Tagline & Socials */}
           <div className="flex flex-col gap-4">
-            <p className="text-base font-bold font-['Aeonik_Pro']">
+            <p className="text-base font-bold font-['aeonik']">
               ...Book in Style, Stay in Confidence
             </p>
             <div className="flex gap-4">
@@ -77,16 +77,16 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="flex flex-col gap-6">
-          <h4 className="text-2xl font-medium font-['Aeonik_Pro']">
+          <h4 className="text-2xl font-medium font-['aeonik']">
             Quick Links
           </h4>
-          <ul className="flex flex-col gap-2 text-xl font-['Aeonik_Pro']">
+          <ul className="flex flex-col gap-2 text-1xl font-['aeonik']">
             {["Home", "Features", "For Guests", "For Hosts", "Why Join"].map(
               (link) => (
                 <li key={link}>{link}</li>
               )
             )}
-            <li className="underline font-medium font-['Aeonik_Pro'] flex gap-2">
+            <li className="underline font-medium text-1xl font-['aeonik'] flex gap-2">
               {" "}
               <a href="/waitlist" className="flex gap-1">
                 Join the Waitlist
@@ -111,10 +111,10 @@ const Footer = () => {
 
         {/* Contact */}
         <div className="flex flex-col gap-6">
-          <h4 className="text-2xl font-medium font-['Aeonik_Pro']">
+          <h4 className="text-2xl font-medium font-['aeonik']">
             Questions or Partnerships?
           </h4>
-          <ul className="flex flex-col gap-3 text-xl font-['Aeonik_Pro']">
+          <ul className="flex flex-col gap-3 text-1xl font-['aeonik']">
             <li className="flex gap-3">
               <EnvelopeIcon className="w-5 h-5 hover:text-blue-600" />{" "}
               hello@lunest.app
@@ -134,7 +134,7 @@ const Footer = () => {
         <div className="flex flex-col gap-6 items-start">
           <button
             href="#"
-            className=" flex px-5 py-2.5 border rounded-full text-sky-100 font-medium font-['Aeonik_Pro']"
+            className=" flex px-5 py-2.5 border rounded-full text-sky-100 font-medium font-['aeonik']"
           >
             <img src="/assets/zap-footer.svg" alt="Coming Soon" /> Coming Soon
           </button>
@@ -147,7 +147,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="mt-10 border-t border-neutral-700 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-white gap-4">
-        <div className="flex items-center gap-2 font-['Aeonik_Pro']">
+        <div className="flex items-center gap-2 font-['aeonik']">
           <span>© {currentYear} Lunest Technologies. All Rights Reserved</span>
         </div>
         <div className="flex gap-6">

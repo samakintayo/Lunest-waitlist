@@ -3,7 +3,7 @@ import React from "react";
 const JoinCard = ({ title, imgSrc, bgColor, bgSrc1, bgsrc2 }) => {
   return (
     <div className={`${bgColor} rounded-lg p-6 w-full  lg:w-[100%] lg:w-[100%] pr-[48px] relative flex flex-col justify-evenly`}>
-      <h3 className="text-black text-xl font-semibold mb-4">{title}</h3>
+      <h3 className="text-black text-xl font-semibold mb-4 font-['aeonik']">{title}</h3>
 
        <div className="flow justify-end float-right right-0 z-10">
           <img src={imgSrc} alt="" className="mx-auto w-32 h-40 object-contain flex float-right" />

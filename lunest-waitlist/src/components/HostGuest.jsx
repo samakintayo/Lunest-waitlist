@@ -8,7 +8,7 @@ const HostGuest = () => {
       {/* Toggle between Guest and Host */}
       <div className="w-full max-w-lg h-14 bg-sky-100 rounded-full flex text-sm sm:text-base">
         <button
-          className={`w-1/2 h-full px-3 sm:px-6 transition-all duration-300 rounded-full flex justify-center items-center font-medium ${
+          className={`w-1/2 h-full px-3 sm:px-6 transition-all duration-300 rounded-full flex justify-center items-center font-['aeonik'] font-medium  ${
             isGuest
               ? 'bg-slate-900 text-white  '
               : 'bg-sky-100 text-slate-900'
@@ -44,14 +44,14 @@ const HostGuest = () => {
 
           {/* Left Text */}
           <div className="max-w-xl flex flex-col gap-6 text-start">
-            <h2 className="text-black text-2xl md:text-3xl font-bold ">
+            <h2 className="text-black text-2xl md:text-3xl font-bold font-['aeonik']">
               Need a Place to Stay?
             </h2>
             <div>
-              <h3 className="text-black text-xl md:text-2xl font-medium ">
+              <h3 className="text-black text-xl md:text-2xl font-medium font-['aeonik']">
                 Join as a Guest and enjoy:
               </h3>
-              <ul className="flex flex-col gap-4 mt-4">
+              <ul className="flex flex-col gap-4 mt-4 font-['aeonik']">
                 {[
                   '100% verified homes',
                   'Safe, agent-free bookings',
@@ -87,11 +87,11 @@ const HostGuest = () => {
 
           {/* Right Section - Text */}
           <div className="max-w-xl flex flex-col gap-6 text-start">
-            <h2 className="text-black text-2xl md:text-3xl font-bold">
+            <h2 className="text-black text-2xl md:text-3xl font-bold font-['aeonik']">
               Own a Property?
             </h2>
             <div>
-              <h3 className="text-black text-xl md:text-2xl font-medium">
+              <h3 className="text-black text-xl md:text-2xl font-medium font-['aeonik']">
                 Join as a Landlord/Host and get:
               </h3>
               <ul className="flex flex-col gap-4 mt-4">
@@ -106,7 +106,7 @@ const HostGuest = () => {
                     <div className="w-6 h-6 flex items-center justify-center">
                         <img className='w-5 h-5' src="/assets/lunest-tick-o.svg" alt="" />
                     </div>
-                    <span className="text-black text-base md:text-lg font-normal leading-snug">
+                    <span className="text-black text-base md:text-lg font-normal font-['aeonik'] leading-snug">
                       {item}
                     </span>
                   </li>
