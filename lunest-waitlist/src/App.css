@@ -1,27 +1,38 @@
-
+font-face{
+    font-family: "Aeonik Pro Regular";
+    src: url("https://db.onlinewebfonts.com/t/12ff62164c9778917bddb93c6379cf47.eot");
+    src: url("https://db.onlinewebfonts.com/t/12ff62164c9778917bddb93c6379cf47.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/12ff62164c9778917bddb93c6379cf47.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/12ff62164c9778917bddb93c6379cf47.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/12ff62164c9778917bddb93c6379cf47.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/12ff62164c9778917bddb93c6379cf47.svg#Aeonik Pro Regular")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
 @font-face {
-  font-family: 'Aeonik_Pro';
-  src: url('/fonts/Aeonik Pro-Light.ttf') format('truetype');
+  font-family: 'Aeonik Pro';
+  src: url('/fonts/Aeonik_Pro-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Aeonik_Pro';
+  font-family: 'Aeonik Pro';
   src: url('/fonts/Aeonik_Pro Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Aeonik_Pro';
+  font-family: 'Aeonik Pro';
   src: url('/fonts/Aeonik_Pro_Air_Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Aeonik_Pro';
+  font-family: 'Aeonik Pro';
   src: url('/fonts/Aeonik_Pro_Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
@@ -29,13 +40,13 @@
 
 
 @font-face {
-  font-family: 'Aeonik_Pro';
+  font-family: 'Aeonik Pro';
   src: url('/fonts/Aeonik_Pro_Medium.ttf') format('truetype');
   font-weight: 700;
   font-style: medium;
 }
 @font-face {
-  font-family: 'Aeonik_Pro';
+  font-family: 'Aeonik Pro';
   src: url('/fonts/Aeonik_Pro_BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;

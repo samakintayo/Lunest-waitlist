@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        aeonik: ['Aeonik_Pro', 'sans-serif'],
+        aeonik: ['Aeonik Pro', 'sans-serif'],
       },
       colors: {
       lunestBlue: '#010135',
@@ -14,9 +14,9 @@ module.exports = {
       reserveBtn: '#000CDFB2',
   
     },
-    fontFamily: {
-        custom: ['"Aeonik_Pro"', 'sans-serif'],
-      },
+    // fontFamily: {
+    //     custom: ['"AeonikPro"', 'sans-serif'],
+    //   },
     },
   },
   plugins: [],
