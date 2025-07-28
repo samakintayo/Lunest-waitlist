@@ -9,7 +9,7 @@ const Cards = ({ title, description, imgSrc, bgColor }) => {
             <img src={imgSrc} alt="" />
           </div>
         </div>
-        <div className="text-left text-black text-base font-medium font-['aeonik']">
+        <div className="text-left text-black text-base font-bold font-['aeonik']">
           {title}
         </div>
       </div>
