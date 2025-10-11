@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   @apply font-aeonik;
+}
+@font-face {
+  font-family: 'aeonik';
+  src: url('/fonts/Aeonik Pro Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: medium;
+}
+
