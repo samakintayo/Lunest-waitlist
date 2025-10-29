@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../ReactApp/lunest back"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../ReactApp/Opolo.global/opologlobal"
+		},
+		{
+			"path": "../../ReactApp/zeeomaluxury.com"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "zeeomaluxury.com"
+	}
+}
